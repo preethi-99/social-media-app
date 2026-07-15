@@ -1,0 +1,97 @@
+.login {
+  height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 900px;
+    height: 600px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(
+          rgba(39, 11, 96, 0.5),
+          rgba(39, 11, 96, 0.5)
+        ),
+        url("https://wallpapers.com/images/featured/social-media-sc1t2yu8prkjix7a.jpg")
+          center;
+      background-size: cover;
+
+      color: white;
+      padding: 50px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 25px;
+
+      h1 {
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      span {
+        font-size: 14px;
+      }
+
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background: white;
+        color: rebeccapurple;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        margin-bottom: 40px;
+        color: #555;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 15px 10px;
+          font-size: 16px;
+          outline: none;
+        }
+
+        button {
+          width: 50%;
+          padding: 12px;
+          border: none;
+          background: rebeccapurple;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
