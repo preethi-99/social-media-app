@@ -1,0 +1,44 @@
+.leftBar {
+    flex: 3;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    .container {
+        padding: 10px;
+
+        .menu{
+            display: flex;
+            flex-direction: column;
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 1px;
+                img{
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                }
+                span{
+                    margin-left: 10px;
+                }
+            }
+
+
+            .item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                cursor: pointer;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+                span{
+                    margin-left: 10px;
+                }
+            }
+            
+        }
+    }
+}
